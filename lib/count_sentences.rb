@@ -6,6 +6,7 @@ class String
       self.end_with?('.')
   end
 
+
   def question?
       self.end_with?('?')
   end
@@ -19,4 +20,5 @@ class String
       array.delete_if{|sentence|sentence.empty?}
       array.length
   end
+  binding.pry
 end
